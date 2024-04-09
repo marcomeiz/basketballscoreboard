@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+h4, h5, button {
+  font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+h4 {
+  color: #F94F6D;
+  font-size: 90px;
+  text-align: center;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-display {
+  background-color: #080001;
+  height: 120px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.container {
+  background-color: #1B244A;
+  text-align: center;
+  max-width: 575px;
+  margin: auto;
+}
+
+.score-el {
+  width: 160px;
+}
+
+.counter-el {
+  margin: 24px 0 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter-el button {
+  font-size: 18px;
+  height: 45px;
+  width: 45px;
+  background-color: transparent;
+  color: #9AABD8;
+  border: solid 1px #9AABD8;
+  border-radius: 4px;
+}
+
+.counter-el button:hover {
+  font-size: 18px;
+  height: 45px;
+  width: 45px;
+  background-color: #9AABD8;
+  color: #1B244A;
+  border: solid 1px #9AABD8;
+  border-radius: 4px;
+}
+
+#resetBtn {
+  background-color: #F94F6D;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 200px;
+  padding: 8px 16px;
+  margin: 24px 0;
+}
+
+#resetBtn:hover {
+  background-color: red;
+}
